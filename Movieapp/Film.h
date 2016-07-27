@@ -17,11 +17,6 @@
 
 
 @property(strong,nonatomic)NSMutableArray * films;
-
-
-
-
-
 -(instancetype) initWithAttributes: (NSDictionary *)
 attributes;
 @end

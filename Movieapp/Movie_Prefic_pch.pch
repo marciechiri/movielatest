@@ -24,5 +24,8 @@
 #define kYear @"Year"
 #define kPoster @"Poster"
 
+//Base Url
+#define kBaseAPIUrl @"BaseApiUrL"
+
 
 #endif

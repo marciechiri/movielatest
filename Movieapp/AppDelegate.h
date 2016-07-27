@@ -21,5 +21,10 @@
 - (NSURL *)applicationDocumentsDirectory;
 
 
+
+
++ (NSURLConnection*)initiateURLConnection:(NSURL*)jsonUrl;
+
+
 @end
 

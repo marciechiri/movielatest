@@ -7,13 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataService.h"
 
 @interface SearchViewController : UIViewController
+{
+    NSString *noResultText;
+    
+}
 
-@property(weak,nonatomic)IBOutlet UISearchBar *Seachbar;
+
+@property(weak,nonatomic)IBOutlet UISearchBar *searchBar;
 
 @property(weak,nonatomic)IBOutlet UITableView *myTableview;
 
-@property(strong,nonatomic) NSMutableArray *masterfilmlist;
+@property(strong,nonatomic) NSMutableArray *masterFilmList;
 
 @end
